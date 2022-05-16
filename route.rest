@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6229dd55ff59b76d32364315
+
+###
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "cristiano ronaldo",
+    "email": "crisron@inc.com",
+    "region": "hyd",
+    "aadhar": "1234567213543",
+    "gender": "male",
+    "subscribedToChannel": "infosysinc"
+}
+###
+
+DELETE http://localhost:3000/subscribers/62385eac81ed3a8896c760de
+
+###
+
+PATCH  http://localhost:3000/subscribers/6229dd55ff59b76d32364315
+
+
